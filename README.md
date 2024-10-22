@@ -21,12 +21,19 @@ npm install express mongoose body-parser nodemon
 
 ## 4. Project Structure
 daily-expenses-app
+
 ├── models
+
 │   └── Expense.js
+
 ├── routes
+
 │   ├── users.js
+
 │   └── expenses.js
+
 ├── app.js
+
 └── package.json
 
 ## Run the server using:

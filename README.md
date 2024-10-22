@@ -1,4 +1,4 @@
-# daily_expenses_backend
+# SetUp and Installation
 
 ## 1. Prerequisites
 Node.js installed
@@ -15,6 +15,24 @@ cd daily-expenses-app
 
 ### Initialize a Node.js project:
 npm init -y
+
+## 3. Install Dependencies
+npm install express mongoose body-parser nodemon
+
+## 4. Project Structure
+daily-expenses-app
+├── models
+│   └── Expense.js
+├── routes
+│   ├── users.js
+│   └── expenses.js
+├── app.js
+└── package.json
+
+## Run the server using:
+npm run dev
+
+
 
 
 
